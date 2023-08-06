@@ -1,0 +1,577 @@
+[
+  {
+    "Code": "23.0101",
+    "Name": "Badanie lekarskie stomatologiczne, które obejmuje również instruktaż higieny jamy ustnej (kod ICD 9-CM 23.08)",
+    "Value": 11
+  },
+  {
+    "Code": "23.0102",
+    "Name": "Badanie lekarskie kontrolne",
+    "Value": 11
+  },
+  {
+    "Code": "23.0105",
+    "Name": "Konsultacja specjalistyczna",
+    "Value": 22
+  },
+  {
+    "Code": "23.02",
+    "Name": "Badanie żywotności zęba",
+    "Value": 2
+  },
+  {
+    "Code": "23.0301",
+    "Name": "Rentgenodiagnostyka do 2 zdjęć wewnątrzustnych",
+    "Value": 20
+  },
+  {
+    "Code": "23.0401",
+    "Name": "Znieczulenie miejscowe powierzchniowe",
+    "Value": 3
+  },
+  {
+    "Code": "23.0402",
+    "Name": "Znieczulenie miejscowe nasiękowe",
+    "Value": 12
+  },
+  {
+    "Code": "23.0403",
+    "Name": "Znieczulenie przewodowe wewnątrzustne",
+    "Value": 20
+  },
+  {
+    "Code": "23.1101",
+    "Name": "Leczenie próchnicy powierzchniowej – za każdy ząb",
+    "Value": 6
+  },
+  {
+    "Code": "23.1105",
+    "Name": "Postępowanie przy obnażeniu i skaleczeniu miazgi – bezpośrednie pokrycie miazgii",
+    "Value": 12
+  },
+  {
+    "Code": "23.1106",
+    "Name": "Opatrunek leczniczy w zębie stałym",
+    "Value": 11
+  },
+  {
+    "Code": "23.1502",
+    "Name": "Całkowite opracowanie i odbudowa ubytku zęba na 1 powierzchni",
+    "Value": 38
+  },
+  {
+    "Code": "23.1503",
+    "Name": "Całkowite opracowanie i odbudowa ubytku na 2 powierzchniach",
+    "Value": 43
+  },
+  {
+    "Code": "23.1504",
+    "Name": "Całkowite opracowanie i odbudowa rozległego ubytku na 2 powierzchniach",
+    "Value": 50
+  },
+  {
+    "Code": "23.1505",
+    "Name": "Całkowite opracowanie i odbudowa rozległego ubytku na 3 powierzchniach",
+    "Value": 61
+  },
+  {
+    "Code": "23.1201",
+    "Name": "Trepanacja martwego zęba z zaopatrzeniem ubytku opatrunkiem",
+    "Value": 8
+  },
+  {
+    "Code": "23.1202",
+    "Name": "Dewitalizacja miazgi zęba z zaopatrzeniem ubytku opatrunkiem",
+    "Value": 12
+  },
+  {
+    "Code": "23.1206",
+    "Name": "Ekstyrpacja przyżyciowa miazgi",
+    "Value": 22
+  },
+  {
+    "Code": "23.1209",
+    "Name": "Ekstyrpacja zdewitalizowanej miazgi zęba",
+    "Value": 14
+  },
+  {
+    "Code": "23.1306",
+    "Name": "Czasowe wypełnienie kanału",
+    "Value": 11
+  },
+  {
+    "Code": "23.1307",
+    "Name": "Wypełnienie kanału",
+    "Value": 19
+  },
+  {
+    "Code": "23.1311",
+    "Name": "Leczenie endodontyczne zęba z wypełnieniem 1 kanału ze zgorzelą miazgi",
+    "Value": 75
+  },
+  {
+    "Code": "23.1601",
+    "Name": "Usunięcie złogów nazębnych z 1/2 łuku zębowego",
+    "Value": 10
+  },
+  {
+    "Code": "23.1604",
+    "Name": "Płukanie kieszonki dziąsłowej i aplikacja leku",
+    "Value": 2
+  },
+  {
+    "Code": "23.1605",
+    "Name": "Leczenie zmian na błonie śluzowej jamy ustnej",
+    "Value": 11
+  },
+  {
+    "Code": "23.1607",
+    "Name": "Kiretaż zwykły (zamknięty) w obrębie 1/4 uzębienia",
+    "Value": 22
+  },
+  {
+    "Code": "23.1612",
+    "Name": "Plastyka wędzidełka, wargi, policzka",
+    "Value": 40
+  },
+  {
+    "Code": "23.1615",
+    "Name": "Unieruchomienie zębów ligaturą drucianą",
+    "Value": 27
+  },
+  {
+    "Code": "23.1701",
+    "Name": "Usunięcie zęba jednokorzeniowego",
+    "Value": 20
+  },
+  {
+    "Code": "23.1702",
+    "Name": "Usunięcie zęba wielokorzeniowego",
+    "Value": 30
+  },
+  {
+    "Code": "23.17",
+    "Name": "Chirurgiczne usunięcie zęba",
+    "Value": 47
+  },
+  {
+    "Code": "23.1704",
+    "Name": "Usunięcie zęba przez dłutowanie zewnątrzzębodołowe z wytworzeniem płata śluzówkowo- okostnowego",
+    "Value": 100
+  },
+  {
+    "Code": "23.1705",
+    "Name": "Operacyjne usunięcie zęba zatrzymanego",
+    "Value": 137
+  },
+  {
+    "Code": "23.1809",
+    "Name": "Chirurgiczne zaopatrzenie małej rany obejmującej do 3 zębodołów włącznie ze szwem",
+    "Value": 20
+  },
+  {
+    "Code": "23.1812",
+    "Name": "Chirurgiczne zaopatrzenie dużej albo znacznie zanieczyszczonej rany w obrębie połowy szczęki włącznie z opracowaniem i szwami",
+    "Value": 40
+  },
+  {
+    "Code": "23.1814",
+    "Name": "Zatamowanie masywnego krwawienia w obrębie jamy ustnej przez podwiązanie, podkłucie naczyń bądź zatkanie kością",
+    "Value": 32
+  },
+  {
+    "Code": "23.1815",
+    "Name": "Założenie opatrunku chirurgicznego",
+    "Value": 9
+  },
+  {
+    "Code": "23.1901",
+    "Name": "Wycięcie małego guzka lub zmiany guzopodobnej, włókniaka",
+    "Value": 100
+  },
+  {
+    "Code": "23.1807",
+    "Name": "Wyłuszczenie torbieli zębopochodnej",
+    "Value": 120
+  },
+  {
+    "Code": "23.1808",
+    "Name": "Wyłuszczenie kamienia z przewodu ślinianki",
+    "Value": 68
+  },
+  {
+    "Code": "23.1906",
+    "Name": "Plastyka połączenia lub przetoki ustno- zatokowej jako samodzielne postępowanie lub jako następstwo ekstrakcji",
+    "Value": 156
+  },
+  {
+    "Code": "23.1801",
+    "Name": "Zamknięcie zatoki otwartej w przebiegu chirurgicznego usuwania zęba",
+    "Value": 156
+  },
+  {
+    "Code": "23.2001",
+    "Name": "Nacięcie powierzchniowo, podśluzówkowo lub podskórnie leżącego ropnia włącznie z drenażem i opatrunkiem",
+    "Value": 20
+  },
+  {
+    "Code": "23.2101",
+    "Name": "Repozycja i unieruchomienie zwichniętego zęba lub grupy zębów",
+    "Value": 33
+  },
+  {
+    "Code": "23.2102",
+    "Name": "Repozycja i unieruchomienie złamanego fragmentu wyrostka zębodołowego z zębem lub zębami",
+    "Value": 42
+  },
+  {
+    "Code": "23.2205",
+    "Name": "Tymczasowe zaopatrzenie złamanej szczęki lub szczęk",
+    "Value": 49
+  },
+  {
+    "Code": "23.2206",
+    "Name": "Założenie szyny drucianej (nazębnej) przy zwichnięciach, reimplantacjach lub transplantacjach zębów, również założenie szyny przy zapaleniu kości, operacjach plastycznych lub resekcjach oraz szynowanie nieuszkodzonej, przeciwstawnej szczęki lub żuchwy",
+    "Value": 55
+  },
+  {
+    "Code": "23.2209",
+    "Name": "Zdjęcie jednej szyny przy wymianie unieruchomienia lub zakończeniu leczenia zachowawczego złamania szczęk",
+    "Value": 22
+  },
+  {
+    "Code": "23.2210",
+    "Name": "Repozycja i unieruchomienie zwichnięcia żuchwy",
+    "Value": 20
+  },
+  {
+    "Code": "23.3102",
+    "Name": "Uzupełnienie braków zębowych przy pomocy protezy częściowej włącznie z prostymi doginanymi klamrami w zakresie 5-8 brakujących zębów",
+    "Value": 340
+  },
+  {
+    "Code": "23.3103",
+    "Name": "Uzupełnienie braków zębowych przy pomocy protezy częściowej włącznie z prostymi doginanymi klamrami w zakresie więcej niż 8 zębów",
+    "Value": 470
+  },
+  {
+    "Code": "23.3104",
+    "Name": "Zaopatrzenie bezzębnej szczęki protezą całkowitą w szczęce",
+    "Value": 528
+  },
+  {
+    "Code": "23.3105",
+    "Name": "Zaopatrzenie bezzębnej szczęki protezą całkowitą w żuchwie",
+    "Value": 528
+  },
+  {
+    "Code": "23.3112",
+    "Name": "Czynności dla odtworzenia funkcji lub poszerzenia zakresu ruchomej protezy (naprawy) w większym zakresie z wyciskiem",
+    "Value": 60
+  },
+  {
+    "Code": "23.3116",
+    "Name": "Całkowite podścielenie jednej protezy w sposób pośredni, włącznie z ukształtowaniem obrzeża – dla szczęki",
+    "Value": 110
+  },
+  {
+    "Code": "23.3117",
+    "Name": "Całkowite podścielenie jednej protezy w sposób pośredni, włącznie z czynnościowym ukształtowaniem obrzeża – dla żuchwy",
+    "Value": 120
+  },
+  {
+    "Code": "23.3118",
+    "Name": "Czynności dla uzupełnienia brakujących tkanek miękkich, wyrównanie lub zamknięcie defektów w obrębie szczęki przy istniejącym uzębieniu resztkowym",
+    "Value": 200
+  },
+  {
+    "Code": "23.3119",
+    "Name": "Czynności dla uzupełnienia brakujących tkanek miękkich, wyrównania lub zamknięcia defektów w obrębie bezzębnej szczęki",
+    "Value": 200
+  },
+  {
+    "Code": "23.3120",
+    "Name": "Wykonanie obturatora dla zamknięcia podniebienia miękkiego",
+    "Value": 450
+  },
+  {
+    "Code": "23.3121",
+    "Name": "Wykonanie tymczasowej protezy poresekcyjnej wypełniającej ubytki po resekcji lub uzupełniającej duże defekty szczęki",
+    "Value": 400
+  },
+  {
+    "Code": "23.3122",
+    "Name": "Wykonanie protezy poresekcyjnej ostatecznej",
+    "Value": 624
+  },
+  {
+    "Code": "23.3123",
+    "Name": "Wykonanie protezy lub epitezy dla uzupełnienia zewnątrzustrojowych defektów części miękkich lub dla uzupełnienia brakujących części twarzy w mniejszym zakresie",
+    "Value": 624
+  },
+  {
+    "Code": "23.3124",
+    "Name": "Wykonanie protezy lub epitezy dla uzupełnienia zewnątrzustrojowych defektów części miękkich lub dla uzupełnienia brakujących części twarzy w większym zakresie",
+    "Value": 960
+  },
+  {
+    "Code": "23.06",
+    "Name": "Wizyta adaptacyjna – dotyczy pierwszych wizyt małych dzieci",
+    "Value": 11
+  },
+  {
+    "Code": "23.0304",
+    "Name": "Rentgenodiagnostyka- zdjęcie pantomograficzne z opisem",
+    "Value": 65
+  },
+  {
+    "Code": "87.121",
+    "Name": "Ortodontyczny rentgenogram głowy lub cefalometria",
+    "Value": 85
+  },
+  {
+    "Code": "23.1003",
+    "Name": "Zabezpieczenie profilaktyczne bruzd lakiem szczelinowym – za każdy ząb",
+    "Value": 11
+  },
+  {
+    "Code": "23.1006",
+    "Name": "Lakierowanie zębów 1/4 łuku zębowego",
+    "Value": 5
+  },
+  {
+    "Code": "23.1008",
+    "Name": "Impregnacja zębiny",
+    "Value": 3
+  },
+  {
+    "Code": "23.1507",
+    "Name": "Całkowite opracowanie i odbudowa zniszczonego kąta w zębach siecznych",
+    "Value": 70
+  },
+  {
+    "Code": "23.1508",
+    "Name": "Kosmetyczne pokrycie niedorozwoju szkliwa",
+    "Value": 30
+  },
+  {
+    "Code": "23.1108",
+    "Name": "Wypełnienie ubytku korony zęba mlecznego",
+    "Value": 30
+  },
+  {
+    "Code": "23.1107",
+    "Name": "Opatrunek leczniczy w zębie mlecznym",
+    "Value": 14
+  },
+  {
+    "Code": "23.1203",
+    "Name": "Amputacja przyżyciowa miazgi w zębie z nieuformowanym korzeniem",
+    "Value": 28
+  },
+  {
+    "Code": "23.1204",
+    "Name": "Amputacja przyżyciowa miazgi",
+    "Value": 24
+  },
+  {
+    "Code": "23.1205",
+    "Name": "Ekstyrpacja przyżyciowa miazgi w zębie z nieuformowanym korzeniem",
+    "Value": 26
+  },
+  {
+    "Code": "23.1208",
+    "Name": "Ekstyrpacja zdewitalizowanej miazgi zęba z nieuformowanym korzeniem",
+    "Value": 21
+  },
+  {
+    "Code": "23.1210",
+    "Name": "Amputacja zdewitalizowanej miazgi zęba mlecznego",
+    "Value": 15
+  },
+  {
+    "Code": "23.1308",
+    "Name": "Leczenie endodontyczne z wypełnieniem 2 kanałów",
+    "Value": 99
+  },
+  {
+    "Code": "23.1309",
+    "Name": "Leczenie endodontyczne z wypełnieniem 3 kanałów",
+    "Value": 147
+  },
+  {
+    "Code": "23.1312",
+    "Name": "Leczenie endodontyczne zęba z wypełnieniem 2 kanałów ze zgorzelą miazgi",
+    "Value": 152
+  },
+  {
+    "Code": "23.1602",
+    "Name": "Usunięcie złogów nazębnych ze wszystkich zębów",
+    "Value": 38
+  },
+  {
+    "Code": "23.1608",
+    "Name": "Kiretaż otwarty w obrębie 1/4 uzębienia",
+    "Value": 68
+  },
+  {
+    "Code": "23.1610",
+    "Name": "Gingiwoosteoplastyka",
+    "Value": 98
+  },
+  {
+    "Code": "23.1613 23.1614",
+    "Name": "Plastyka przedsionka jamy ustnej met. Clarka, Kazanjana, Nabersa",
+    "Value": 117
+  },
+  {
+    "Code": "23.1620",
+    "Name": "Założenie opatrunku paradontologicznego",
+    "Value": 20
+  },
+  {
+    "Code": "23.1706",
+    "Name": "Operacyjne odsłonięcie zatrzymanego zęba z założeniem pętli drucianej dla celów ortodontycznych",
+    "Value": 130
+  },
+  {
+    "Code": "23.1707",
+    "Name": "Operacyjne usunięcie zawiązków zębów ze wskazań ortodontycznych",
+    "Value": 137
+  },
+  {
+    "Code": "23.1802",
+    "Name": "Resekcja wierzchołka korzenia zęba przedniego)",
+    "Value": 137
+  },
+  {
+    "Code": "23.2302",
+    "Name": "wycisk jednej szczęki dla diagnozy, planowania i kontroli",
+    "Value": 18
+  },
+  {
+    "Code": "23.2308",
+    "Name": "Korekcyjne szlifowanie zębów",
+    "Value": 30
+  },
+  {
+    "Code": "23.2307",
+    "Name": "Wykonanie zgryzu konstrukcyjnego",
+    "Value": 33
+  },
+  {
+    "Code": "23.2306",
+    "Name": "Analiza telerentgenogramu",
+    "Value": 30
+  },
+  {
+    "Code": "23.2310",
+    "Name": "Utrzymywacz przestrzeni jako samodzielne postępowanie",
+    "Value": 110
+  },
+  {
+    "Code": "23.2312",
+    "Name": "Środki do wprowadzenia pojedynczego przemieszczonego zęba do łuku, po chirurgicznym jego odsłonięciu",
+    "Value": 50
+  },
+  {
+    "Code": "23.2401",
+    "Name": "Leczenie aparatem ortodontycznym ruchomym, jednoszczękowym",
+    "Value": 450
+  },
+  {
+    "Code": "23.2402",
+    "Name": "Leczenie aparatem ortodondycznym ruchomym, dwuszczękowym nieelastycznym",
+    "Value": 600
+  },
+  {
+    "Code": "23.2406",
+    "Name": "Kontrola przebiegu leczenia z aparatem ruchomym",
+    "Value": 22
+  },
+  {
+    "Code": "23.2502",
+    "Name": "Naprawa aparatu z wyciskiem",
+    "Value": 60
+  },
+  {
+    "Code": "23.2503",
+    "Name": "Rekonstrukcja aparatu ruchomego przy pacjencie w niewielkim zakresie",
+    "Value": 33
+  },
+  {
+    "Code": "23.2611",
+    "Name": "Proteza dziecięca częściowa",
+    "Value": 420
+  },
+  {
+    "Code": "23.2612",
+    "Name": "Proteza dziecięca całkowita",
+    "Value": 528
+  },
+  {
+    "Code": "23.1009",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 6. miesiącu życia",
+    "Value": 15
+  },
+  {
+    "Code": "23.1010",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 9. miesiącu życia",
+    "Value": 18
+  },
+  {
+    "Code": "23.1011",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 12. miesiącu życia",
+    "Value": 26
+  },
+  {
+    "Code": "23.1012",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 2. roku życia",
+    "Value": 62
+  },
+  {
+    "Code": "23.1013",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 4. roku życia",
+    "Value": 62
+  },
+  {
+    "Code": "23.1014",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 5. roku życia",
+    "Value": 62
+  },
+  {
+    "Code": "23.1015",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 6. roku życia",
+    "Value": 62
+  },
+  {
+    "Code": "23.1016",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 7. roku życia",
+    "Value": 44
+  },
+  {
+    "Code": "23.1017",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla dziecka w 10. roku życia",
+    "Value": 44
+  },
+  {
+    "Code": "23.1018",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla młodzieży w 12. roku życia",
+    "Value": 44
+  },
+  {
+    "Code": "23.1019",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla młodzieży w 13. roku życia",
+    "Value": 44
+  },
+  {
+    "Code": "23.1020",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla młodzieży w 16. roku życia",
+    "Value": 44
+  },
+  {
+    "Code": "23.1021",
+    "Name": "Profilaktyczne świadczenie stomatologiczne dla młodzieży w 19. roku życia",
+    "Value": 44
+  }
+]

@@ -1,99 +1,66 @@
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
-  IonContent,
-  IonIcon,
-  IonItem,
-  IonLabel,
-  IonList,
-  IonListHeader,
-  IonMenu,
-  IonMenuToggle,
-  IonNote,
-} from '@ionic/react';
+  Drawer,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  IconButton,
+  styled,
+} from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
 
-import { useLocation } from 'react-router-dom';
-import { archiveOutline, archiveSharp, bookmarkOutline, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
-import './Menu.css';
-
-interface AppPage {
-  url: string;
-  iosIcon: string;
-  mdIcon: string;
-  title: string;
-}
-
-const appPages: AppPage[] = [
-  {
-    title: 'Inbox',
-    url: '/page/Inbox',
-    iosIcon: mailOutline,
-    mdIcon: mailSharp
+const CustomDrawer = styled(Drawer)(({ theme }) => ({
+  "& .MuiDrawer-paper": {
+    backgroundColor: "black", 
+    color: "white", 
+    width: "250px", 
   },
-  {
-    title: 'Outbox',
-    url: '/page/Outbox',
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp
-  },
-  {
-    title: 'Favorites',
-    url: '/page/Favorites',
-    iosIcon: heartOutline,
-    mdIcon: heartSharp
-  },
-  {
-    title: 'Archived',
-    url: '/page/Archived',
-    iosIcon: archiveOutline,
-    mdIcon: archiveSharp
-  },
-  {
-    title: 'Trash',
-    url: '/page/Trash',
-    iosIcon: trashOutline,
-    mdIcon: trashSharp
-  },
-  {
-    title: 'Spam',
-    url: '/page/Spam',
-    iosIcon: warningOutline,
-    mdIcon: warningSharp
-  }
-];
-
-const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+}));
 
 const Menu: React.FC = () => {
-  const location = useLocation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
-    <IonMenu contentId="main" type="overlay">
-      <IonContent>
-        <IonList id="inbox-list">
-          <IonListHeader>Inbox</IonListHeader>
-          <IonNote>hi@ionicframework.com</IonNote>
-          {appPages.map((appPage, index) => {
-            return (
-              <IonMenuToggle key={index} autoHide={false}>
-                <IonItem className={location.pathname === appPage.url ? 'selected' : ''} routerLink={appPage.url} routerDirection="none" lines="none" detail={false}>
-                  <IonIcon aria-hidden="true" slot="start" ios={appPage.iosIcon} md={appPage.mdIcon} />
-                  <IonLabel>{appPage.title}</IonLabel>
-                </IonItem>
-              </IonMenuToggle>
-            );
-          })}
-        </IonList>
-
-        <IonList id="labels-list">
-          <IonListHeader>Labels</IonListHeader>
-          {labels.map((label, index) => (
-            <IonItem lines="none" key={index}>
-              <IonIcon aria-hidden="true" slot="start" icon={bookmarkOutline} />
-              <IonLabel>{label}</IonLabel>
-            </IonItem>
-          ))}
-        </IonList>
-      </IonContent>
-    </IonMenu>
+    <>
+      <IconButton
+        sx={{
+          position: "absolute",
+          top: "16px",
+          left: "16px",
+          zIndex: 9999,
+        }}
+        onClick={toggleMenu}
+      >
+        <MenuIcon sx={{ color: "white" }} />
+      </IconButton>
+      <CustomDrawer
+        anchor="left"
+        open={isMenuOpen}
+        onClose={toggleMenu}
+      >
+        <List sx={{ my: 8 }}>
+          <ListItem component={Link} to="/kalkulator" onClick={toggleMenu}>
+            <ListItemText primary="Kalkulator" />
+          </ListItem>
+          <ListItem component={Link} to="/historia" onClick={toggleMenu}>
+            <ListItemText primary="Historia" />
+          </ListItem>
+          <ListItem
+            component={Link}
+            to="/lista-kodow"
+            onClick={toggleMenu}
+          >
+            <ListItemText primary="Lista Kodów" />
+          </ListItem>
+        </List>
+      </CustomDrawer>
+    </>
   );
 };
 
